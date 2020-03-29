@@ -1,5 +1,5 @@
 # Breaking Bad API 
-<img align="center" width="600" src="/home/javierfigueroa/go/src/awesomeProject/markdown/GolangImg.png">
+<img align="center" width="500" src="markdown/GOImg.png">
 
 ## Contents
 [Descriptions](#Descriptions)  
