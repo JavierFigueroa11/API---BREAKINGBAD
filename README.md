@@ -1,5 +1,6 @@
 # Breaking Bad API 
-<img align="center" width="500" src="markdown/GOImg.png">
+<img align="left" width="500" src="markdown/GOImg.png">
+<img align="right" width="500" src="markdown/breakingbad.jpg">
 
 ## Contents
 [Descriptions](#Descriptions)  
@@ -17,9 +18,12 @@
 # 
 ##  Descriptions
  This is a REST API developed in golang to obtain information about the episodes, quotes of the characters and how they died and see the characters.
+ The file **"CharacterBB.txt"** contains the data of all the characters to use them in the REST API.
+ 
+
  # 
  ## Stage
-The project is carried out with a MVC structure (Model Views Controllers).
+The project is carried out with a MVC structure (Model Views Controllers). The file **"CharacterBB.txt"**
 
 **Router:** This a interfaces between endpoints and its corresponding controllers.
 
@@ -29,9 +33,12 @@ The project is carried out with a MVC structure (Model Views Controllers).
 
 **Domain**: This contains the structs and interfaces to development of the API.
 
+
 # 
 ## Endpoints
-#### GET-Characters()
+###Characters
+
+#### GET-GetCharacters()
 >localhost:8086/getcharacters
 
 **Response Code** 200 Ok
@@ -56,3 +63,91 @@ The project is carried out with a MVC structure (Model Views Controllers).
          ...
 ]
 ```
+#
+#### GET-GetCharactersID()
+>localhost:8086/getcharacters/:id
+
+**Response Code** 200 Ok
+
+**Response Body**
+
+
+
+# 
+#### POST-PostCharacters()
+>localhost:8086/createcharacters
+
+**Response Code** 200 Ok
+
+**Response Body** 
+
+#
+#### PUT- PutCharacters()
+>localhost:8086/updatecharacters
+
+**Response Code** 200 Ok
+
+**Response Body**
+
+#
+#### PUT- DeleteCharactersID()
+>localhost:8086/deletecharacters/:id
+
+**Response Code** 200 Ok
+
+**Response Body**
+
+
+#
+
+###Quotes
+#### GET-GetQuotes()
+>localhost:8086/getquotes
+
+**Response Code** 200 Ok
+
+**Response Body** 
+
+
+#
+#### GET-GetQuotesID()
+>localhost:8086/getquotes/:id
+
+**Response Code** 200 Ok
+
+**Response Body** 
+
+
+#
+
+###Episodes
+#### GET-GetEpisodes()
+>localhost:8086/getepisodes
+
+**Response Code** 200 Ok
+
+**Response Body** 
+
+
+#
+#### GET-GetEpisodesID()
+>localhost:8086/getepisodes/:id
+
+**Response Code** 200 Ok
+
+**Response Body** 
+
+
+#
+
+###Deaths
+#### GET-GetDeaths()
+>localhost:8086/getdeaths
+
+**Response Code** 200 Ok
+
+**Response Body** 
+
+
+
+
