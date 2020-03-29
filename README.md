@@ -1,6 +1,5 @@
 # Breaking Bad API 
-<img align="left" width="200" src="markdown/GOImg.png">
-<img align="right" width="200 src="markdown/breakingbad.jpg">
+<img align="left" width="600" src="markdown/GOImg.png">
 
 ## Contents
 [Descriptions](#Descriptions)  
