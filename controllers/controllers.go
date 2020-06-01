@@ -9,7 +9,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-//ASDASDASD
 func GetCharacters(c *gin.Context) {
 	character, err := services.GetCharacters()
 	if err != nil {
@@ -130,6 +129,5 @@ func PutCharacters(c *gin.Context) {
 		c.String(apiErr.Status, apiErr.Error())
 		return
 	}
-
 	c.JSON(http.StatusOK, character)
 }
