@@ -472,5 +472,3 @@ The selected API is about [Breaking Bad!](breakingbadapi.com), we also use **GoL
 ```
 
 <img align="center" width="600" src="markdown/GOImg.png">
-
-#END
